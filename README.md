@@ -5,7 +5,7 @@ Frontend Application for Sear Consults Ghana.
   *Nodejs installed on your computer
 
 ## To Clone and Deploy
-*Type this into your command line
+* Type this into your command line
   ```
   git clone https://github.com/eustacequartey/sear-consults-frontend.git
   ```
