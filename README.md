@@ -2,7 +2,7 @@
 Frontend Application for Sear Consults Ghana.
 
 ## Requirements
-  *Nodejs installed on your computer
+* HaveNodejs installed on your computer
 
 ## To Clone and Deploy
 * Type this into your command line
