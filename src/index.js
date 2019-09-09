@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path')
 const hbs = require('hbs')
-const port = process.env.port || 3000
+const port = process.env.port || 3002
 const app = express()
 
 //Config Paths
