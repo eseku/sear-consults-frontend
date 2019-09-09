@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path')
 const hbs = require('hbs')
-
+const port = process.env.PORT || 3002
 const app = express()
 
 //Config Paths
@@ -23,6 +23,6 @@ app.get('*', (req,res)=>{
   res.send('<h1>Oops, the page you are looking for does not exist</h1>')
 })
 
-app.listen(process.env.port||3002, ()=>{
-  console.log("port", process.env.port||3002);
+app.listen(port, ()=>{
+  console.log("port", port);
 })
